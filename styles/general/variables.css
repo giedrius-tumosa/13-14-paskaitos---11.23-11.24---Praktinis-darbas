@@ -4,6 +4,7 @@
   --color-200: #f7fafb;
   --color-300: #9993ff;
   --color-400: #645cff;
+  --color-450: #0d00ff;
   --color-500: #231e80;
   --color-800: #222;
   --color-600: #000;
@@ -47,4 +48,5 @@
   --color-theme: var(--color-400);
   --color-theme-light: var(--color-300);
   --color-theme-dark: var(--color-500);
+  --color-links-generic: var(--color-450);
 }
