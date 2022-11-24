@@ -38,7 +38,7 @@
 @media (min-width: 650px) {
   .main_hero {
     position: relative;
-    background-image: url(/images/hero_mountains.jpg);
+    background-image: url(./images/hero_mountains.jpg);
     background-position: center;
     background-size: cover;
   }
