@@ -2,9 +2,7 @@
 .hidden {
   display: none;
 }
-header * {
-  /* border: 1px solid red; */
-}
+
 header {
   height: 60px;
 }
@@ -43,6 +41,9 @@ header .social-nav svg {
 header .social-nav li:hover svg {
   fill: var(--color-theme-light);
   cursor: pointer;
+}
+svg {
+  fill: ;
 }
 
 @media (min-width: 650px) {
