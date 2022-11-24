@@ -34,7 +34,7 @@
   opacity: 0.4;
 }
 .main_gallery-list figure:hover::before {
-  content: url(/images/magnifying_glass.png);
+  content: url(../../images/magnifying_glass.png);
 
   position: absolute;
   top: 50%;
