@@ -1,0 +1,50 @@
+:root {
+  /* Colors */
+  --color-100: #fff;
+  --color-200: #f7fafb;
+  --color-300: #9993ff;
+  --color-400: #645cff;
+  --color-500: #231e80;
+  --color-800: #222;
+  --color-600: #000;
+
+  /* Font size*/
+  --fs-1: 0.7rem;
+  --fs-2: 0.85rem;
+  --fs-4: 1rem;
+  --fs-4-m: 1.25rem;
+  --fs-5: 1.5rem;
+  --fs-6: 2rem;
+  --fs-7: 2.5rem;
+  --fs-8: 3rem;
+  --fs-9: 3.5rem;
+  --fs-10: 4rem;
+
+  /* Font weight */
+  --fw-3: 300;
+  --fw-4: 400;
+  --fw-5: 500;
+  --fw-6: 600;
+  --fw-8: 800;
+  --fw-9: 900;
+
+  /* Font family */
+  --ff-global: "Work Sans", sans-serif;
+
+  /* Layout and sizes*/
+  --padding-1: 1rem;
+  --padding-2: 2rem;
+  --padding-3: 3rem;
+
+  /* Specific */
+  --color-bg-body: var(--color-100);
+  --color-bg-header: var(--color-100);
+  --color-bg-footer: var(--color-800);
+  --color-bg-light: var(--color-bg-light);
+  --color-hero: var(--color-400);
+  --color-icons: var(--color-400);
+  --color-word-span: var(--color-400);
+  --color-theme: var(--color-400);
+  --color-theme-light: var(--color-300);
+  --color-theme-dark: var(--color-500);
+}

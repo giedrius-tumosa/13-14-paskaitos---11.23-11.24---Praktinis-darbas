@@ -1,0 +1,64 @@
+.main_hero {
+  background-color: var(--color-hero);
+  height: calc(100vh + 60px);
+}
+.main_hero .content-wrap {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  color: var(--color-100);
+}
+.main_hero p {
+  font-size: var(--fs-1);
+  font-weight: var(--fw-4);
+  line-height: 1.5;
+  max-width: 500px;
+}
+.link-explore-tours:any-link {
+  color: var(--color-100);
+  text-decoration: none;
+  font-size: var(--fs-1);
+  font-weight: var(--fw-2);
+  line-height: 1;
+  padding: 0.7em;
+  box-shadow: 0.5px 0.5px 0px 1px #0000001f;
+  background-color: var(--color-theme);
+  border-radius: 3px;
+}
+.link-explore-tours:any-link:hover {
+  background-color: var(--color-theme-light);
+}
+
+/* Media queries */
+
+@media (min-width: 650px) {
+  .main_hero {
+    position: relative;
+    background-image: url(/images/hero_mountains.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .main_hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-theme);
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .content-wrap {
+    position: relative;
+    z-index: 10;
+  }
+  .main_hero p {
+    font-size: var(--fs-2);
+    font-weight: var(--fw-5);
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,41 @@
+.main_about-text p {
+  font-size: var(--fs-1);
+  font-weight: var(--fw-4);
+  line-height: 1.5;
+  margin-bottom: 0.7rem;
+}
+
+.main_about-description {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 650px) {
+  .main_about-text p {
+    font-size: var(--fs-2);
+    line-height: 1.5;
+  }
+  .main_about-description {
+    flex-direction: row;
+  }
+  .main_about-description > figure {
+    flex: 1;
+    position: relative;
+  }
+  .main_about-text {
+    flex: 1;
+  }
+  .main_about-description > figure:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 5px solid var(--color-theme);
+    position: absolute;
+    box-sizing: border-box;
+    top: -1rem;
+    left: -1rem;
+    z-index: -1;
+  }
+}

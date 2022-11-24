@@ -1,0 +1,49 @@
+.main_services-list > li p {
+  font-size: var(--fs-1);
+  font-weight: var(--fw-4);
+  line-height: 1.5;
+}
+.main_services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+.main_services-list > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.service-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Icons */
+.service-icon {
+  background-color: var(--color-theme);
+  width: fit-content;
+  line-height: 0;
+  padding: 0.5rem;
+}
+
+/* PABAIGTI flex, kad tekstas p visad vieame lymenyje butu */
+
+@media (min-width: 650px) {
+  .main_services-list > li p {
+    font-size: var(--fs-2);
+    line-height: 1.5;
+    width: 80%;
+  }
+  .main_services-list > li {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+    gap: 1.5rem;
+  }
+  .service-icon span {
+    font-size: 2rem;
+  }
+}
